@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #eef2f7;
+  padding: 30px;
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 14px;
+  color: #2c3e50;
+}
+
+/* Inputs y botones */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccd0d5;
+  border-radius: 8px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bfc;
+  outline: none;
+}
+
+/* Botones generales */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  font-size: 1em;
+  background: #007bfc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #005bbf;
+}
+
+/* Botones pequeños dentro de tarjetas */
+.usuario button {
+  width: auto;
+  font-size: 0.9em;
+  padding: 6px 12px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.usuario button:first-of-type {
+  background-color: #f1c40f;
+  color: #333;
+}
+
+.usuario button:first-of-type:hover {
+  background-color: #d4ac0d;
+}
+
+.usuario button:last-of-type {
+  background-color: #e74c3c;
+}
+
+.usuario button:last-of-type:hover {
+  background-color: #c0392b;
+}
+
+/* Tarjetas de usuario */
+#usuarios {
+  margin-top: 25px;
+}
+
+.usuario {
+  background: #fdfdfd;
+  padding: 15px;
+  border: 1px solid #dfe6e9;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.usuario strong {
+  font-size: 1.1em;
+  color: #2c3e50;
+}
